@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>ICT PROJECT</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub2-header">
+    <nav>
+        <a href="INDEX.HTML"><img src="image2/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.HTML">HOME</a></li>
+                <li><a href="index%20(2).HTML">ABOUT</a></li>
+                <li><a href="index%20(3).HTML">ICT Lessons</a></li>
+                <li><a href="index%20(4).HTML">Reflection</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<!------ Reflections ------->
+
+<section class="reflections">
+    <div class="bo">
+        <h1>Reflection</h1>
+        <p>About Our Life As A Student During The Pandemic</p>
+    </div>
+    <div class="row">
+        <div class="reflections-col">
+            <img src="image2/Badajos.JPG">
+            <div>
+                <p>My life in pandemic is so hard because of the Covid-19, we cannot go in school normal because of lockdown, so the government just give a module and online to enter class</p>
+                <h3>Jhon Mikael Badajos</h3>
+            </div>
+        </div>
+        <div class="reflections-col">
+            <img src="image2/Nambatac.JPG">
+            <div>
+                <p>My life during pandemic is really exhausted, it feels like were in a game that is really really hard. There's some lesson that I don't understand and sometimes my internet connection is not available.</p>
+                <h3>Henry James Nambatac</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!------- Footer --------->
+
+<section class="footer">
+    <h4>"Its About Tribe, Its About Power, We Stay Hungry, We Devour, Put In The Work, Put In The Hours, And Take What's Ours"</h4>
+</section>
+
+
+
+
+<!-----------JavaScript for Toggle Menu------------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+
+
+</body>
+</html>
